@@ -1,0 +1,94 @@
+.paper {
+  margin: 1em 1em 0.5em 0 !important;
+  padding: 1em 0;
+  display: inline-block;
+  width: 48%;
+}
+
+.avatar {
+  width: 100px !important;
+  height: 100px !important;
+  margin-right: 1em;
+}
+
+/* .absocial {
+    background-color: rgb(76, 221, 137);
+  } */
+
+.social {
+  position: relative;
+  /* background-color: aqua; */
+}
+
+.socialContent {
+  display: block !important;
+  line-height: 30px;
+}
+
+.accordian {
+  position: absolute !important;
+  right: 6%;
+  bottom: 280%;
+  width: 0;
+  height: 5px;
+}
+
+.like {
+  background-color: rgb(69, 144, 243);
+  color: #fff;
+  width: 1.5em !important;
+  height: 1.5em !important;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dislike {
+  background-color: rgb(243, 75, 69);
+  color: #fff;
+  width: 1.5em !important;
+  height: 1.5em !important;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* @media (max-width: 960px) {
+  .accordian {
+    right: 0%;
+    bottom: 0%;
+  }
+  .paper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 961px) {
+  .accordian {
+    bottom: 230%;
+  }
+}
+
+@media (max-width: 870px) {
+  .accordian {
+    right: 5%;
+  }
+}
+
+@media (max-width: 640px) {
+  .accordian {
+    right: 17%;
+    bottom: 180%;
+  }
+} */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .paper {
+    width: 100%;
+  }
+
+  .avatar {
+    margin-right: 0.5em;
+    /* background-color: blueviolet; */
+  }
+}
