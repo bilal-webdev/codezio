@@ -1,0 +1,18 @@
+.bgcolor{
+    color: #fff !important;
+    background-color: rgba(255, 176, 29, 0.925) !important;
+}
+
+.Link{
+    cursor: pointer;
+    color:rgba(29, 63, 255, 0.925);
+    text-decoration: none;
+}
+
+.Link:hover{
+    text-decoration: underline;
+}
+
+
+
+/* #ffb01f */

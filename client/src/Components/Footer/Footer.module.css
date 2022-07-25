@@ -1,0 +1,74 @@
+.bgcolor{
+    margin-top: 2em;
+    color: #fff;
+    background-color: #000;
+    padding: 5em 5em !important;
+}
+
+.box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.line{
+    margin: 1em auto;
+    width: 40%;
+    border-radius: 5em;
+    height: .3em;
+    border: none;
+    background-color: #64A19D ;
+}
+
+.paper{
+    padding: 1em 2em;
+    width: 31%;
+    text-align: center;
+    border-bottom: 5px solid #64A19D;
+}
+
+.mailPhone{
+    text-decoration: none;
+    color: #000;
+}
+
+.mailcss {
+    display: none;
+}
+
+.socialLinks{
+    margin: 3em 0;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.socialLink{
+    margin: 0 .5em;
+    background-color: #1A1A1A !important;
+    color: #636363 !important;
+}
+
+.socialLink:hover{
+    color: #8D8D8D !important;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .box{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .paper{
+        width: 100%;
+        margin-bottom: 2em;
+        padding: 1em 1em;
+        text-align: center;
+        border-bottom: 5px solid #64A19D;
+    }
+
+    .mailcss {
+        display: inline-block;
+    }
+  }

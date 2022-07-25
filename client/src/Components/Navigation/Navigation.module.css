@@ -1,0 +1,18 @@
+.backgroundColor{
+    background:  rgba(255, 176, 29, 0.925) !important;
+    margin-bottom: 2em;
+}
+
+.Link{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .title {
+        width: 100%;
+        text-align: center;
+        /* background-color: aquamarine; */
+    }
+}

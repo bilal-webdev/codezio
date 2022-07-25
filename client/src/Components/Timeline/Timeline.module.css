@@ -1,0 +1,18 @@
+.bgcolor{
+    margin-top: 1em !important ;
+    color: #fff !important;
+    background-color: rgba(255, 176, 29, 0.925) !important;
+}
+
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+        .posts{
+            display: flex;
+            justify-content: center;
+        }
+    
+}
